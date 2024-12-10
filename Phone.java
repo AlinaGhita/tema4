@@ -16,7 +16,7 @@ abstract class Phone {
     //create contact list
     private List<Contact> contacts = new ArrayList<>();
     //create a map list for messages in order to check if a key(phoneNumber) exists
-    //and in order to can add a new key in the list
+    //and in order to can add a value to a key in the list
     private Map<String, List<String>> messages = new HashMap<>();
     //create a callHistory list
     private List<String> callHistory = new ArrayList<>();
